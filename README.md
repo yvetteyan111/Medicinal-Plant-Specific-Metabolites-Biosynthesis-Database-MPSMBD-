@@ -99,14 +99,15 @@ The homepage summarizes the database scale and provides access to the five conne
 
 Chemical properties, classification, source species, and pathway associations.
 
-![metabolite search page](assets/screenshots/02-metabolite-search.png)
+![metabolite search page](assets/screenshots/02-metabolite_search.png)
 [**Click to view the full berberine details page (PDF)**](assets/detail_information_pdf/02-metabolite_detail_information.pdf)
 
 ### Biosynthetic pathway
 
 Metabolite-specific routes, ordered reaction steps, and producer information.
 
-![Epicatechin biosynthetic pathway](assets/screenshots/03-pathway-map.jpg)
+![Epicatechin biosynthetic pathway](assets/screenshots/03-pathway_search.jpg)
+[**Click to view the berberine biosynthesis pathway page (PDF)**](assets/detail_information_pdf/03-pathway_detail.pdf)
 
 ### Candidate enzyme evidence
 
@@ -118,7 +119,8 @@ Candidate statistics, taxonomic distribution, phylogeny, domains, and motifs.
 
 A structured query linking Berberine to its curated biosynthetic pathway record.
 
-![Guided Query Assistant](assets/screenshots/05-query-assistant.jpg)
+![Guided Query Assistant](assets/screenshots/05-query_assistant.png)
+[**Click to view the full query assistant page (PDF)**](assets/detail_information_pdf/05-query_assistant.pdf)
 
 A short video walkthrough is also planned to demonstrate the complete workflow from a target metabolite to pathways, species-level coverage, and candidate enzyme evidence.
 
