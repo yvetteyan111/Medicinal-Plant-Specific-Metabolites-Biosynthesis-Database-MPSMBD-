@@ -99,7 +99,8 @@ The homepage summarizes the database scale and provides access to the five conne
 
 Chemical properties, classification, source species, and pathway associations.
 
-![Naringenin metabolite details](assets/screenshots/02-metabolite-details.jpg)
+![metabolite search page](assets/screenshots/02-metabolite-search.png)
+[**Click to view the full berberine details page (PDF)**](assets/detail_information_pdf/02-metabolite_detail_information.pdf)
 
 ### Biosynthetic pathway
 
@@ -111,7 +112,7 @@ Metabolite-specific routes, ordered reaction steps, and producer information.
 
 Candidate statistics, taxonomic distribution, phylogeny, domains, and motifs.
 ![Candidate enzyme evidence](assets/screenshots/04-enzyme-evidence.png)
-[**Click to view the full metabolite details page (PDF)**](assets/screenshots/04-enzyme-evidence.pdf)
+[**Click to view the full candidate enzyme details page (PDF)**](assets/detail_information_pdf/04-enzyme-evidence.pdf)
 
 ### Guided Query Assistant
 
