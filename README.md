@@ -110,7 +110,7 @@ Metabolite-specific routes, ordered reaction steps, and producer information.
 
 Candidate statistics, taxonomic distribution, phylogeny, domains, and motifs.
 
-![Candidate enzyme evidence](assets/screenshots/04-enzyme-evidence.jpg)
+![Candidate enzyme evidence](assets/screenshots/04-enzyme-evidence.pdf)
 
 ### Guided Query Assistant
 
