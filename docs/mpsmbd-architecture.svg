@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">MPSMBD data architecture</title>
+  <desc id="desc">Biological data sources are curated and standardized into five connected database modules that support enzyme discovery, pathway analysis, heterologous workflows, and web-based exploration.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6fbf8"/>
+      <stop offset="1" stop-color="#eef4fb"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#17324d" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#55738f"/>
+    </marker>
+    <style>
+      .title{font:700 34px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#17324d}
+      .subtitle{font:400 16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#5a7185}
+      .label{font:700 13px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#61798d;letter-spacing:1.4px}
+      .h{font:700 17px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#17324d}
+      .t{font:400 13px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#4d667b}
+      .box{fill:#fff;stroke:#cbd9e5;stroke-width:1.5;rx:14;filter:url(#shadow)}
+      .source{fill:#f9fcff;stroke:#bfd2e3}
+      .module{fill:#f8fcf9;stroke:#b9d8c3}
+      .analysis{fill:#fffaf3;stroke:#e2cfaa}
+      .output{fill:#f8f7ff;stroke:#ccc7e8}
+      .connector{stroke:#55738f;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .arrow{stroke:#55738f;stroke-width:2.2;fill:none;stroke-linecap:round;marker-end:url(#arrow)}
+      .junction{fill:#55738f}
+    </style>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <text x="600" y="48" text-anchor="middle" class="title">MPSMBD Data Architecture</text>
+  <text x="600" y="75" text-anchor="middle" class="subtitle">From heterogeneous biological resources to an integrated biosynthesis database</text>
+
+  <text x="55" y="115" class="label">DATA SOURCES</text>
+  <rect class="box source" x="55" y="130" width="340" height="72"/>
+  <text class="h" x="225" y="159" text-anchor="middle">Metabolites and source species</text>
+  <text class="t" x="225" y="182" text-anchor="middle">KNApSAcK · HERB · COCONUT</text>
+
+  <rect class="box source" x="430" y="130" width="340" height="72"/>
+  <text class="h" x="600" y="159" text-anchor="middle">Pathways and reactions</text>
+  <text class="t" x="600" y="182" text-anchor="middle">KEGG pathway and reaction records</text>
+
+  <rect class="box source" x="805" y="130" width="340" height="72"/>
+  <text class="h" x="975" y="159" text-anchor="middle">Protein and coding sequences</text>
+  <text class="t" x="975" y="182" text-anchor="middle">Medicinal-plant sequence resources</text>
+
+  <text x="55" y="256" class="label">DATA CURATION AND ORGANIZATION</text>
+  <rect class="box" x="350" y="235" width="500" height="84"/>
+  <text class="h" x="600" y="267" text-anchor="middle">Collection · Curation · Standardization</text>
+  <text class="t" x="600" y="291" text-anchor="middle">Identifier mapping · synonym resolution · pathway reconstruction</text>
+
+  <text x="55" y="340" class="label">CONNECTED DATABASE MODULES</text>
+  <rect class="box module" x="55" y="390" width="190" height="72"/>
+  <text class="h" x="150" y="422" text-anchor="middle">Species</text>
+  <text class="t" x="150" y="444" text-anchor="middle">168 plant species</text>
+
+  <rect class="box module" x="280" y="390" width="190" height="72"/>
+  <text class="h" x="375" y="422" text-anchor="middle">Metabolites</text>
+  <text class="t" x="375" y="444" text-anchor="middle">864 metabolites</text>
+
+  <rect class="box module" x="505" y="390" width="190" height="72"/>
+  <text class="h" x="600" y="422" text-anchor="middle">Pathways</text>
+  <text class="t" x="600" y="444" text-anchor="middle">299 pathway records</text>
+
+  <rect class="box module" x="730" y="390" width="190" height="72"/>
+  <text class="h" x="825" y="422" text-anchor="middle">Enzymes</text>
+  <text class="t" x="825" y="444" text-anchor="middle">93,719 homologous sequences</text>
+
+  <rect class="box module" x="955" y="390" width="190" height="72"/>
+  <text class="h" x="1050" y="422" text-anchor="middle">Applications</text>
+  <text class="t" x="1050" y="444" text-anchor="middle">Heterologous workflows</text>
+
+  <text x="55" y="526" class="label">ANALYSIS</text>
+  <rect class="box analysis" x="100" y="541" width="300" height="88"/>
+  <text class="h" x="250" y="573" text-anchor="middle">Candidate enzyme identification</text>
+  <text class="t" x="250" y="597" text-anchor="middle">BLASTp · Pfam · ProstT5/Foldseek · Evo2</text>
+
+  <rect class="box analysis" x="450" y="541" width="300" height="88"/>
+  <text class="h" x="600" y="573" text-anchor="middle">Cross-species route analysis</text>
+  <text class="t" x="600" y="597" text-anchor="middle">Pathway coverage across plant species</text>
+
+  <rect class="box analysis" x="800" y="541" width="300" height="88"/>
+  <text class="h" x="950" y="573" text-anchor="middle">Heterologous workflows</text>
+  <text class="t" x="950" y="597" text-anchor="middle">Plant and microbial chassis evidence</text>
+
+  <text x="55" y="691" class="label">USER ACCESS</text>
+  <rect class="box output" x="330" y="670" width="540" height="84"/>
+  <text class="h" x="600" y="704" text-anchor="middle">MPSMBD Web Platform</text>
+  <text class="t" x="600" y="730" text-anchor="middle">Data browsing · pathway visualization · evidence inspection · guided queries</text>
+
+  <!-- Data sources converge into the curation layer. -->
+  <path class="connector" d="M225 202 V218 M600 202 V218 M975 202 V218 M225 218 H975"/>
+  <circle class="junction" cx="600" cy="218" r="3"/>
+  <path class="arrow" d="M600 218 V228"/>
+
+  <!-- The curated data are distributed to all five database modules. -->
+  <path class="connector" d="M600 319 V352 M150 352 H1050"/>
+  <circle class="junction" cx="600" cy="352" r="3"/>
+  <path class="arrow" d="M150 352 V380"/>
+  <path class="arrow" d="M375 352 V380"/>
+  <path class="arrow" d="M600 352 V380"/>
+  <path class="arrow" d="M825 352 V380"/>
+  <path class="arrow" d="M1050 352 V380"/>
+
+  <!-- The connected modules feed the three analysis and evidence workflows. -->
+  <path class="connector" d="M150 462 V485 M375 462 V485 M600 462 V485 M825 462 V485 M1050 462 V485 M150 485 H1050"/>
+  <circle class="junction" cx="250" cy="485" r="3"/>
+  <circle class="junction" cx="600" cy="485" r="3"/>
+  <circle class="junction" cx="950" cy="485" r="3"/>
+  <path class="arrow" d="M250 485 V531"/>
+  <path class="arrow" d="M600 485 V531"/>
+  <path class="arrow" d="M950 485 V531"/>
+
+  <!-- Analysis results converge into the web platform. -->
+  <path class="connector" d="M250 629 V645 M600 629 V645 M950 629 V645 M250 645 H950"/>
+  <circle class="junction" cx="600" cy="645" r="3"/>
+  <path class="arrow" d="M600 645 V660"/>
+</svg>
+
