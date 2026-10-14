@@ -92,7 +92,8 @@ The current version uses structured database queries rather than a large languag
 
 The homepage summarizes the database scale and provides access to the five connected modules.
 
-![MPSMBD platform overview](assets/screenshots/01-homepage.jpg)
+![MPSMBD platform overview](assets/screenshots/01-homepage_1.png)
+![MPSMBD platform overview](assets/screenshots/01-homepage_2.png)
 
 ### Metabolite details
 
