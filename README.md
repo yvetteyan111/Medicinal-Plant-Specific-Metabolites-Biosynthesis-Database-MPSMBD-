@@ -113,15 +113,17 @@ Metabolite-specific routes, ordered reaction steps, and producer information.
 ### Candidate enzyme evidence
 
 MPSMBD provides two levels of evidence for exploring candidate enzymes.
-## Reaction-step candidate overview
+#### Reaction-step candidate overview
 
 For each reaction step, the database summarizes known proteins and predicted candidate homologs across plant species. Users can browse and filter sequences by taxonomy, species, confidence level, and enzyme activity.
 
-![Candidate enzyme evidence](assets/screenshots/04-enzyme-evidence_1.png)
-![Candidate enzyme evidence](assets/screenshots/04-enzyme-evidence_2.png)
-![Candidate enzyme evidence](assets/screenshots/04-enzyme-evidence_3.png)
+![Searchable known and predicted protein records](assets/screenshots/04-enzyme-evidence_1.png)
 
-## Individual candidate record
+![Phylogenetic tree with domain and motif architectures](assets/screenshots/04-enzyme-evidence_2.png)
+
+![Reaction-step enzyme evidence collection](assets/screenshots/04-enzyme-evidence_3.png)
+
+#### Individual candidate record
 Each predicted protein has a dedicated record that brings together sequence metadata, BLASTp similarity, Pfam domain architecture, protein language model-based structural evidence, Evo2 assessment, and the corresponding protein and coding sequences.
 
 ![One candidate record information](assets/screenshots/04-enzyme-evidence.png)
@@ -136,7 +138,8 @@ A structured query linking Berberine to its curated biosynthetic pathway record.
 
 ## Video walkthrough
 This short walkthrough demonstrates how users can move from a target metabolite to its biosynthetic pathway, reaction-step enzyme candidates, and supporting evidence.
-See [`demo/README.md`](demo/mpsmbd-walkthrough.mp4)
+
+[▶ Watch the MPSMBD video walkthrough](demo/MPSMBD-walkthrough-inline.mp4)
 
 ## Future development
 
