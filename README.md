@@ -134,7 +134,7 @@ A structured query linking Berberine to its curated biosynthetic pathway record.
 ![Guided Query Assistant](assets/screenshots/05-query_assistant.png)
 [**Click to view the full query assistant page (PDF)**](assets/detail_information_pdf/05-query_assistant.pdf)
 
-### Video walkthrough
+## Video walkthrough
 This short walkthrough demonstrates how users can move from a target metabolite to its biosynthetic pathway, reaction-step enzyme candidates, and supporting evidence.
 See [`demo/README.md`](demo/mpsmbd-walkthrough.mp4)
 
