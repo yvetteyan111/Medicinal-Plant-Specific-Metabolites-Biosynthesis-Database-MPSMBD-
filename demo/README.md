@@ -4,7 +4,8 @@ This folder contains a short walkthrough of the MPSMBD database and its main res
 
 ## Watch the demo
 
-[▶ Watch or download the MPSMBD walkthrough](MPSMBD-walkthrough-inline.mp4)
+[▶ Watch or download the MPSMBD walkthrough](MPSMBD-walkthrough.m4v)
+https://github.com/yvetteyan111/Medicinal-Plant-Specific-Metabolites-Biosynthesis-Database-MPSMBD-/issues/2
 
 ## What the demo shows
 
