@@ -4,7 +4,7 @@ This folder contains a short walkthrough of the MPSMBD database and its main res
 
 ## Watch the demo
 
-[▶ Watch or download the MPSMBD walkthrough](MPSMBD-walkthrough-inline.m4v)
+[▶ Watch or download the MPSMBD walkthrough](MPSMBD-walkthrough-inline.mp4)
 
 ## What the demo shows
 
