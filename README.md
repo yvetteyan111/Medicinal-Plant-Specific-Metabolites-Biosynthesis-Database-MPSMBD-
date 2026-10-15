@@ -106,7 +106,7 @@ Chemical properties, classification, source species, and pathway associations.
 
 Metabolite-specific routes, ordered reaction steps, and producer information.
 
-![Epicatechin biosynthetic pathway](assets/screenshots/03-pathway_search.jpg)
+![pathway search page](assets/screenshots/03-pathway_search.jpg)
 [**Click to view the berberine biosynthesis pathway page (PDF)**](assets/detail_information_pdf/03-pathway_detail.pdf)
 
 ### Candidate enzyme evidence
